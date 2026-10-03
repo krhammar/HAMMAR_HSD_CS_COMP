@@ -1,4 +1,44 @@
-h1 
+body
 {
-    color: red;
+    background-color: #111111;
+    font-size: 100%;
+}
+
+nav li
+{
+    display: inline;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 250;
+    font-style: normal;
+
+    font-size: 25px;
+    float: left;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: #444444;
+}
+
+nav a
+{
+    color: #faf3dd;
+
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    background-color: #444444;
+}
+
+h1
+{
+    color: #FFDDDD
 }
