@@ -1,44 +1,83 @@
+
+
+/* General */
+
+
+
 body
 {
-    background-color: #111111;
-    font-size: 100%;
+    margin: 0;
+    background-color: #dddddd;
 }
 
-nav li
+
+
+/*Navigation*/
+
+
+
+nav
 {
-    display: inline;
-
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 250;
-    font-style: normal;
-
-    font-size: 25px;
-    float: left;
+    font-size: 45px;
 }
 
 nav ul
 {
+    display: flex;
+    align-items: center;
+    height: 1in;
+
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding-left: 25px;
+    gap: 25px;
 
-    background-color: #444444;
+    background-color: #11111a;
 }
+
+/* Navigation links */
 
 nav a
 {
     color: #faf3dd;
 
     display: block;
-    text-align: center;
+
     padding: 14px 16px;
     text-decoration: none;
-
-    background-color: #444444;
 }
+
+nav a:hover
+{
+    background-color: #22222b;
+    color: #eecd94
+}
+
+.active
+{
+    color: #bba595
+}
+
+/* Navigation logo */
+
+nav img
+{
+    width: 60px;
+    height: auto;
+
+    margin-left: 35px;
+
+    display: block;
+}
+
+
+
+/* Page Content */
+
+
 
 h1
 {
-    color: #FFDDDD
+    color: #333333
 }
