@@ -58,13 +58,29 @@ export class Cart {
         this.orders = orders;
 
         // finds the total sum price of the cart
-        sum = 0;
-        for (var order in orders){
+        var sum = 0;
+        for (var order of orders){
             sum += order.totalPrice;
         }
 
         this.totalPrice = sum;
     }
+
+    addOrder(order){
+        this.orders.push(order);
+    }
 }
 
+
+
+// adds an item to the current cart
+export function addItem(product, quantity, notes) {
+
+    var order = new Order(product, quantity, notes);
+
+    cart.addOrder(order);
+}
+
+
+// declares the cart
 export const cart = new Cart("No Name", []);

@@ -15,7 +15,7 @@ picture of object
 price
 average time to complete
 */
-export const products = [
+const products = [
     new Product("Sword", "A steel blade forged by Gunter's trusty hand! Guarentied claw-sharp edge or your money back!", "images/sword.png", 10, 8),
     new Product("Plate Armor", "Strong, solid, expertly forged interlocking plates for the expert adventurer! What you lose in weight, you gain in nigh invincability.", "images/platearmor.png", 50, 15),
     new Product("Chain Mail", "For the adventurer who needs a little more flexibility in their armor, chain mail is for you! Each loop is crafted and affixed with love.", "images/chainmail.png", 25, 20),
